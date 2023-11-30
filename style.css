@@ -22,6 +22,7 @@ html {
   top: 0;
   left: 0;
   z-index: 99;
+
 }
 
 .contenedor-header header {
@@ -33,7 +34,7 @@ html {
   padding: 15px 20px;
 }
 
-.contenedor-header header .logo img{
+.contenedor-header header .logo img {
   margin-left: 10px;
   margin-bottom: -3px;
 }
@@ -68,7 +69,7 @@ html {
   text-decoration: none;
   font-family: "Barlow Condensed";
   font-size: 1.3rem;
-  text-shadow: 3px 3px 10px #7c7dbb;
+  text-shadow: 4px 4px 8px #7c7dbb;
 }
 
 .nav-responsive {
