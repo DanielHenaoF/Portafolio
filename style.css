@@ -21,8 +21,7 @@ html {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 99;
-
+  z-index: 100;
 }
 
 .contenedor-header header {
@@ -69,7 +68,7 @@ html {
   text-decoration: none;
   font-family: "Barlow Condensed";
   font-size: 1.3rem;
-  text-shadow: 4px 4px 8px #7c7dbb;
+  text-shadow: 5px 5px 6px #7c7dbb;
 }
 
 .nav-responsive {
@@ -95,14 +94,14 @@ html {
   padding: 15px;
   background-color: #1e2326;
   max-width: 350px;
-  margin: auto;
+  margin: 70px;
   text-align: center;
   border-radius: 30px;
 }
 
 .inicio .contenido-banner img {
   margin-top: 40px;
-  border: 10px solid #7c7dbb;
+  border: 10px double #7c7dbb;
   display: block;
   width: 60%;
   margin: auto;
@@ -124,7 +123,7 @@ html {
   color: #fff;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 3px double #fff;
   border-radius: 0 20px 0 20px;
   width: 42px;
   height: 42px;
@@ -821,7 +820,15 @@ footer .arriba {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 980px) {
+  .inicio {
+    display: block;
+  }
+
+  .inicio .contenido-banner {
+    margin-top: 75px;
+  }
+
   .sobremi .fila {
     display: block;
   }
@@ -854,7 +861,19 @@ footer .arriba {
     margin-left: 20px;
   }
 
-  /* CODE PORTAFOLIO */
+  .portafolio .galeria {
+    display: block;
+    width: 100%;
+  }
+
+  .portafolio .galeria .imagenes {
+    max-width: 100%;
+  }
+
+  .portafolio .galeria .imagenes img {
+    width: 100%;
+  }
+
   .contacto .fila {
     display: block;
   }

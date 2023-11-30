@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="img/icon.png" type="img/icon" />
-  
-  <title>Daniel Henao | Mi portafolio</title>
+
+  <title>Daniel Henao | Portafolio</title>
 </head>
 
 <body>
@@ -20,344 +20,351 @@
   <div class="contenedor-header">
     <header>
       <div class="logo">
-        <a href="#">Portafolio
-        <img src="img/portafolio.jpg" alt=""></a>
+        <a href="#inicio">Portafolio
+          <img src="img/portafolio.jpg" alt="page icon"></a>
       </div>
-      
+
       <nav id="nav">
         <ul>
           <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
           <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
           <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
-          <li>
-            <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
-          </li>
-          <li>
-            <a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a>
-          </li>
+          <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+          <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
           <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-          <li><a href="#prueba" onclick="seleccionar()">PRUEBA</a></li>
         </ul>
       </nav>
-      
+
       <div class="nav-responsive" onclick="mostrarOcultarMenu()">
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
   </div>
-  <!-- INICIO -->
-  <section id="inicio" class="inicio">
-    <div class="contenido-banner">
-      <div class="contenedor-img">
-        <img src="img/hero.png" alt="Perfil" title="Daniel Henao" height="170px" />
-      </div>
-      <h1>DANIEL HENAO</h1>
-      <h2>Técnico de Soporte en Informatica</h2>
-      <div class="redes">
-        <a rel="noopener" href="https://wa.link/i1hsoh" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-        <a rel="noopener" href="https://web.facebook.com/FelipeHenao11/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-        <a rel="noopener" href="https://www.linkedin.com/in/danielhenaof/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
-      </div>
-    </div>
-  </section>
-  <!-- SOBRE MI -->
-  <section id="sobremi" class="sobremi">
-    <div class="contenido-sobremi">
-      <h2>Sobre Mí</h2>
-      <p>
-        <span>¡Hola!,</span> cuento con experiencia en áreas administrativas,
-        resolución de problemas, herramientas para gestionar la productividad,
-        análisis de datos para generación de informes. Manejo de programas
-        Ofimáticos. Poseo gran capacidad de análisis y liderazgo para
-        gestionar soluciones y mejora de procesos. Tengo buen manejo en
-        sistemas de información. Me caracterizo por escuchar las necesidades
-        de los clientes internos y externos resolviendo sus dificultades e
-        inquietudes generando satisfacción para todos los interesados.
-      </p>
 
-      <div class="fila">
-        <!-- Datos personales -->
-        <div class="col">
-          <h3>Datos personales</h3>
-          <ul>
-            <li>
-              <strong>F. nacimiento</strong>
-              20-04-1998
-            </li>
-            <li>
-              <strong>Teléfono</strong>
-              314 780 4710
-            </li>
-            <li>
-              <strong>Correo</strong>
-              Daniielfh@outlook.com
-            </li>
-            <li>
-              <strong>Dirección</strong>
-              Carrera 84B #94C - 55 / Medellín
-            </li>
-            <li>
-              <strong>Cargo</strong>
-              <span>Analista de CMDB</span>
-            </li>
-          </ul>
+  <!-- MENU PRINCIPAL -->
+  <main>
+    <!-- INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/hero.png" alt="Perfil" title="Daniel Henao" height="170px" />
         </div>
-        <!-- Intereses -->
-        <div class="col">
-          <h3>Interes</h3>
-          <div class="contenedor-intereses">
-            <div class="interes">
-              <i class="fa-solid fa-gamepad"></i>
-              <span>JUEGOS</span>
-            </div>
-            <div class="interes">
-              <i class="fa-solid fa-headphones"></i>
-              <span>MUSICA</span>
-            </div>
-            <div class="interes">
-              <i class="fa-solid fa-motorcycle"></i>
-              <span>VIAJAR</span>
-            </div>
-            <div class="interes">
-              <i class="fa-brands fa-readme"></i>
-              <span>LEER</span>
-            </div>
-            <div class="interes">
-              <i class="fa-solid fa-champagne-glasses"></i>
-              <span>FIESTA</span>
-            </div>
-            <div class="interes">
-              <i class="fa-regular fa-futbol"></i>
-              <span>DEPORTES</span>
-            </div>
-          </div>
+        <h1>DANIEL HENAO</h1>
+        <h2>Técnico de Soporte en Informatica</h2>
+        <div class="redes">
+          <a rel="noopener" href="https://wa.link/i1hsoh" target="_blank" title="Whatsapp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+          <a rel="noopener" href="https://web.facebook.com/FelipeHenao11/" target="_blank" title="Facebook"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a rel="noopener" href="https://www.linkedin.com/in/danielhenaof/" target="_blank" title="Linkedin"><i
+              class="fa-brands fa-linkedin"></i></a>
         </div>
       </div>
-      <!-- <button>
-        Descargar Info <i class="fa-solid fa-download"></i>
-        <span class="overlay"></span>
-      </button> -->
-    </div>
-  </section>
-  <!-- HABILIDADES -->
-  <section id="skills" class="skills">
-    <div class="contenido-skills">
-      <h2>Habilidades</h2>
-      <div class="fila">
-        <!-- Tecnicas -->
-        <div class="col">
-          <h3>Habilidades Técnicas</h3>
-          <div class="skill">
-            <span>Soporte técnico de PC</span>
-            <div class="barra-skill">
-              <div class="progreso soporteenpc">
-                <span>40%</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Mantenimiento de PC</span>
-            <div class="barra-skill">
-              <div class="progreso mantenimientopc">
-                <span>85%</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Análisis de CMDB</span>
-            <div class="barra-skill">
-              <div class="progreso analisiscmdb">
-                <span>75%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Profesionales -->
-        <div class="col">
-          <h3>Habilidades Profesionales</h3>
-          <div class="skill">
-            <span>Dedicación</span>
-            <div class="barra-skill">
-              <div class="progreso dedicacion">
-                <span>90%</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Comunicación</span>
-            <div class="barra-skill">
-              <div class="progreso comunicacion">
-                <span>60%</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill">
-            <span>Trabajo en Equipo</span>
-            <div class="barra-skill">
-              <div class="progreso trabajo">
-                <span>85%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- CURRICULUM -->
-  <section id="curriculum" class="curriculum">
-    <div class="contenido-curriculum">
-      <h2>Plan de Estudios</h2>
-      <div class="fila">
-        <div class="col izquierda">
-          <h3>Educación</h3>
-          <div class="item izq">
-            <h4>Asistente Administrativo</h4>
-            <span class="casa">SENA</span>
-            <span class="fecha">2014 - 2015</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              tenetur nemo ratione eos laborum nihil labore. Facere cumque
-              odit doloremque velit harum alias ullam, culpa aliquid, eaque
-              ducimus minima incidunt.
-            </p>
-            <div class="conectori">
-              <div class="circuloi"></div>
-            </div>
-          </div>
-          <div class="item izq">
-            <h4>Soporte Sistemas e Informática</h4>
-            <span class="casa">Politecnico de Antioquia</span>
-            <span class="fecha">2015 - 2017</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              tenetur nemo ratione eos laborum nihil labore. Facere cumque
-              odit doloremque velit harum alias ullam, culpa aliquid, eaque
-              ducimus minima incidunt.
-            </p>
-            <div class="conectori">
-              <div class="circuloi"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col derecha">
-          <div class="correcion">
-            <h3>Experiencia Laboral</h3>
-          </div>
-          <div class="item der">
-            <h4>Soporte Técnico</h4>
-            <span class="casa">EDTAEL</span>
-            <span class="fecha">2017 - 2018</span>
-            <p>
-              Soporte en Sitio, Soporte telefónico, Instalación de Software,
-              Mantenimiento de equipos de cómputo y Atención al usuario.<br />
-              Excelente servicio de atención al usuario, resolviendo
-              incidentes y solicitudes presentadas en la operación de soporte
-              en sitio y un buen despacho de distribución y alistamiento de
-              equipos.
-            </p>
-            <div class="conectord">
-              <div class="circulod"></div>
-            </div>
-          </div>
-          <div class="item der">
-            <h4>Analista de CMDB</h4>
-            <span class="casa">ComWare</span>
-            <span class="fecha">2018 - 2023</span>
-            <p>
-              Administración, análisis y gestión de activos físicos
-              tecnológicos de TIGO. Actualización, creación de los IC,
-              atención a usuarios y solución a sus requerimientos, generación
-              de informes y KPI.<br />
-              Mejora y sostenimiento en la confiablidad del inventario de HW,
-              estando en niveles superiores al 97 porciento.
-            </p>
-            <div class="conectord">
-              <div class="circulod"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- PORTAFOLIO -->
-  <section id="portafolio" class="portafolio">
-    <div class="contenido-portafolio">
-      <h2>PORTAFOLIO</h2>
-      <div class="galeria">
-        <div class="imagenes">
-          <img src="img/p1.jpg" height="224px" alt="Soporte Técnico" />
-          <div class="overlay">
-            <h3>Soporte Técnico</h3>
-            <p>Fotografía</p>
-          </div>
-        </div>
-        <div class="imagenes">
-          <img src="img/p2.jpg" height="224px" alt="Mantenimiento de PC" />
-          <div class="overlay">
-            <h3>Mantenimiento de PC</h3>
-            <p>Fotografía</p>
-          </div>
-        </div>
-        <div class="imagenes">
-          <img src="img/p3.jpg" height="224px" alt="Análisis en la CMDB" />
-          <div class="overlay">
-            <h3>Análisis en la CMDB</h3>
-            <p>Fotografía</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- CONTACTO -->
-  <section id="contacto" class="contacto">
-    <div class="contenido-contacto">
-      <h2>CONTACTO</h2>
-      <div class="fila">
-        <!-- Formulario -->
-        <form class="col" action="https://formsubmit.co/4ab67f8d86a11f861f559bd760f4e2ca" method="POST">
-          <input type="text" name="Nombre" placeholder="Nombre completo" />
-          <input type="text" name="Número telefónico" placeholder="Número telefónico" />
-          <input type="email" name="Correo electronico" placeholder="Correo electronico" />
-          <input type="text" name="Asunto" placeholder="Asunto" />
-          <textarea type="text" name="Mensaje" id="" cols="30" rows="2" placeholder="Mensaje"></textarea>
-          <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contacto" />
-          <input type="hidden" name="_captcha" value="false" />
-          <button type="submit">
-            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
-            <span class="overlay"></span>
-          </button>
-        </form>
-        <!-- Mapa -->
-        <div class="col">
-          <img src="img/ubicacion.png" alt="Ubicación" />
-          <div class="info">
+    </section>
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-sobremi">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>¡Hola!,</span> cuento con experiencia en áreas administrativas,
+          resolución de problemas, herramientas para gestionar la productividad,
+          análisis de datos para generación de informes. Manejo de programas
+          Ofimáticos. Poseo gran capacidad de análisis y liderazgo para
+          gestionar soluciones y mejora de procesos. Tengo buen manejo en
+          sistemas de información. Me caracterizo por escuchar las necesidades
+          de los clientes internos y externos resolviendo sus dificultades e
+          inquietudes generando satisfacción para todos los interesados.
+        </p>
+
+        <div class="fila">
+          <!-- Datos personales -->
+          <div class="col">
+            <h3>Datos personales</h3>
             <ul>
               <li>
-                <i class="fa-solid fa-location-dot"></i>Cisneros, Antioquia
+                <strong>F. nacimiento</strong>
+                20-04-1998
               </li>
               <li>
-                <i class="fa-solid fa-mobile-screen"></i>Llamar: 314 780 4710
+                <strong>Teléfono</strong>
+                314 780 4710
               </li>
               <li>
-                <i class="fa-solid fa-envelope"></i>Correo electronico:
+                <strong>Correo</strong>
                 Daniielfh@outlook.com
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                Carrera 84B #94C - 55 / Medellín
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>Analista de CMDB</span>
               </li>
             </ul>
           </div>
+          <!-- Intereses -->
+          <div class="col">
+            <h3>Interes</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-motorcycle"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-readme"></i>
+                <span>LEER</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <span>FIESTA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-regular fa-futbol"></i>
+                <span>DEPORTES</span>
+              </div>
+            </div>
+          </div>
         </div>
-        </f>
+        <!-- <button>
+        Descargar Info <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button> -->
       </div>
-  </section>
-  <!-- FOOTER -->
+    </section>
+    <!-- HABILIDADES -->
+    <section id="skills" class="skills">
+      <div class="contenido-skills">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <!-- Tecnicas -->
+          <div class="col">
+            <h3>Habilidades Técnicas</h3>
+            <div class="skill">
+              <span>Soporte técnico de PC</span>
+              <div class="barra-skill">
+                <div class="progreso soporteenpc">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Mantenimiento de PC</span>
+              <div class="barra-skill">
+                <div class="progreso mantenimientopc">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Análisis de CMDB</span>
+              <div class="barra-skill">
+                <div class="progreso analisiscmdb">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Profesionales -->
+          <div class="col">
+            <h3>Habilidades Profesionales</h3>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso dedicacion">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso comunicacion">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skill">
+                <div class="progreso trabajo">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-curriculum">
+        <h2>Plan de Estudios</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Asistente Administrativo</h4>
+              <span class="casa">SENA</span>
+              <span class="fecha">2014 - 2015</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                tenetur nemo ratione eos laborum nihil labore. Facere cumque
+                odit doloremque velit harum alias ullam, culpa aliquid, eaque
+                ducimus minima incidunt.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Soporte Sistemas e Informática</h4>
+              <span class="casa">Politecnico de Antioquia</span>
+              <span class="fecha">2015 - 2017</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+                tenetur nemo ratione eos laborum nihil labore. Facere cumque
+                odit doloremque velit harum alias ullam, culpa aliquid, eaque
+                ducimus minima incidunt.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col derecha">
+            <div class="correcion">
+              <h3>Experiencia Laboral</h3>
+            </div>
+            <div class="item der">
+              <h4>Soporte Técnico</h4>
+              <span class="casa">EDTAEL</span>
+              <span class="fecha">2017 - 2018</span>
+              <p>
+                Soporte en Sitio, Soporte telefónico, Instalación de Software,
+                Mantenimiento de equipos de cómputo y Atención al usuario.<br />
+                Excelente servicio de atención al usuario, resolviendo
+                incidentes y solicitudes presentadas en la operación de soporte
+                en sitio y un buen despacho de distribución y alistamiento de
+                equipos.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Analista de CMDB</h4>
+              <span class="casa">ComWare</span>
+              <span class="fecha">2018 - 2023</span>
+              <p>
+                Administración, análisis y gestión de activos físicos
+                tecnológicos de TIGO. Actualización, creación de los IC,
+                atención a usuarios y solución a sus requerimientos, generación
+                de informes y KPI.<br />
+                Mejora y sostenimiento en la confiablidad del inventario de HW,
+                estando en niveles superiores al 97 porciento.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+      <div class="contenido-portafolio">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+          <div class="imagenes">
+            <img src="img/p1.jpg" height="224px" alt="Soporte Técnico" />
+            <div class="overlay">
+              <h3>Soporte Técnico</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="imagenes">
+            <img src="img/p2.jpg" height="224px" alt="Mantenimiento de PC" />
+            <div class="overlay">
+              <h3>Mantenimiento de PC</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+          <div class="imagenes">
+            <img src="img/p3.jpg" height="224px" alt="Análisis en la CMDB" />
+            <div class="overlay">
+              <h3>Análisis en la CMDB</h3>
+              <p>Fotografía</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-contacto">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <form class="col" action="https://formsubmit.co/4ab67f8d86a11f861f559bd760f4e2ca" method="POST">
+            <input type="text" name="Nombre" placeholder="Nombre completo" />
+            <input type="text" name="Número telefónico" placeholder="Número telefónico" />
+            <input type="email" name="Correo electronico" placeholder="Correo electronico" />
+            <input type="text" name="Asunto" placeholder="Asunto" />
+            <textarea type="text" name="Mensaje" id="" cols="30" rows="2" placeholder="Mensaje"></textarea>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contacto" />
+            <input type="hidden" name="_captcha" value="false" />
+            <button type="submit">
+              Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </form>
+          <!-- Mapa -->
+          <div class="col">
+            <img src="img/ubicacion.png" alt="Ubicación" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>Cisneros, Antioquia
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>Llamar: 314 780 4710
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>Correo electronico:
+                  Daniielfh@outlook.com
+                </li>
+              </ul>
+            </div>
+          </div>
+          </f>
+        </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PAGINA -->
   <footer>
     <a href="#inicio" class="arriba" title="Arriba"><i class="fa-solid fa-angles-up"></i></a>
     <div class="redes">
-      <a rel="noopener" href="https://wa.link/i1hsoh" target="_blank" title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-      <a rel="noopener" href="https://web.facebook.com/FelipeHenao11/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-      <a rel="noopener" href="https://www.linkedin.com/in/danielhenaof/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      <a rel="noopener" href="https://wa.link/i1hsoh" target="_blank" title="Whatsapp"><i
+          class="fa-brands fa-whatsapp"></i></a>
+      <a rel="noopener" href="https://web.facebook.com/FelipeHenao11/" target="_blank" title="Facebook"><i
+          class="fa-brands fa-facebook-f"></i></a>
+      <a rel="noopener" href="https://www.linkedin.com/in/danielhenaof/" target="_blank" title="Linkedin"><i
+          class="fa-brands fa-linkedin"></i></a>
     </div>
     <h4>Copyright &copy Portafolio 2023</h4>
   </footer>
+
   <script src="script.js"></script>
 </body>
 
